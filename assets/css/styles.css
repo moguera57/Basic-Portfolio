@@ -1,5 +1,7 @@
 body{
     background: lightgray;
+    position: relative;
+    height: 100%;
 }
 .sticky-nav{
     width: 100%;
@@ -15,11 +17,12 @@ body{
     width: 70%;
     margin: 0 auto;
     height: 100%;
+    max-width: 960px;
 }
 
 .sticky-nav h1{
     padding: 20px;
-    width: 200px;
+    width: 170px;
     background-color: teal;
     text-align: center;
     color: #fff;
@@ -48,8 +51,55 @@ body{
 
 .main-content{
     width: 70%;
-    margin: 100px auto 30px auto;
-    padding: 10px;
+    margin: 100px auto 100px auto;
+    max-width: 960px;
     background: #fff;
     border: 3px solid #ddd;
+}
+
+.text-wrapper p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #444;
+    margin-top: 20px;
+}
+
+.in-text-image{
+    width: 180px;
+    padding: 0px 20px 20px 0px;
+    float: left;
+}
+
+.content-wrapper{
+    padding: 20px;
+}
+
+.content-header{
+    width: 100%;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: teal;
+}
+
+footer{ 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-upper{
+    width: 100%;
+    padding-top:10px;
+    background-color: teal;
+}
+
+.footer-lower{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background-color: #444;
 }
