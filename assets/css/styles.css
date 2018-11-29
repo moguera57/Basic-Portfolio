@@ -9,6 +9,7 @@ body{
     position: fixed;
     border-bottom: solid 3px #ddd;
     top: 0;
+    z-index: 10000;
 }
 
 .nav-container{
@@ -116,12 +117,37 @@ footer{
 }
 
 .portfolio-item{
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.portfolio-banner{
+    position: absolute;
+    bottom: 40px;
+    padding: 20px 0px;
+    text-align: center;
+    left:0;
+    right:0;
+    background-color: teal;
 }
 
 .portfolio-item-1{
-    background-image: src("https://placekitten.com/400/400");
+    background-image: url("https://placekitten.com/400/400");
+}
+
+.portfolio-item-2{
+    background-image: url("https://placekitten.com/400/500");
+}
+
+.portfolio-item-3{
+    background-image: url("https://placekitten.com/400/600");
+}
+
+.portfolio-item-4{
+    background-image: url("https://placekitten.com/500/700");
 }
