@@ -103,3 +103,22 @@ footer{
     color: #fff;
     background-color: #444;
 }
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
